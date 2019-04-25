@@ -32,7 +32,7 @@ import org.springframework.web.servlet.view.RedirectView;
 @Controller
 @RequestMapping("/")
 @SessionAttributes({"nombre"})
-public class TactilController {
+public class DactilController {
    
    @RequestMapping(value="index",method=RequestMethod.GET)
     public String indexController(Model model){
